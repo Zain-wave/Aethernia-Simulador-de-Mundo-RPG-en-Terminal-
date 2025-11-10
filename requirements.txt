@@ -1,0 +1,18 @@
+# === Librerías principales ===
+
+# Para imprimir tablas, colores y estilos en terminal
+rich==13.9.1
+
+# Para crear menús interactivos avanzados (autocompletado, prompts)
+prompt_toolkit==3.0.48
+
+# === Utilidades opcionales ===
+
+# Para pruebas automatizadas
+pytest==8.3.3
+
+# Para manejo de datos (si agregas análisis de estadísticas o economía)
+pandas==2.2.3
+
+# Para serialización y persistencia avanzada
+ujson==5.10.0
