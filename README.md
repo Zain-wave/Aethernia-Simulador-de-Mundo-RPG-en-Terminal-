@@ -52,7 +52,7 @@ El proyecto busca desarrollar un **motor de simulación modular**, capaz de pers
 
 ---
 
-## ⚙️ Tecnologías y librerías sugeridas
+## ⚙️ Tecnologías y librerías 
 
 | Tipo | Librería | Descripción |
 |------|-----------|-------------|
@@ -60,61 +60,6 @@ El proyecto busca desarrollar un **motor de simulación modular**, capaz de pers
 | Datos | `json` / `sqlite3` | Persistencia del mundo |
 | Tests | `pytest` | Pruebas unitarias |
 | Utilidades | `random`, `datetime`, `dataclasses` | Simulación y modelado de entidades |
-
-
-
-## 🧱 Estructura inicial del proyecto
-
-
-aethernia/
-│
-├── main.py # Punto de entrada principal
-│
-├── requirements.txt # Dependencias del proyecto
-├── README.md # Documentación general
-│
-├── data/ # Datos y guardados del mundo
-│ ├── world_state.json # Estado persistente del mundo
-│ ├── npc_templates.json # Plantillas base de NPCs
-│ └── event_log.txt # Registro histórico de eventos
-│
-├── world/ # Módulo del motor del mundo
-│ ├── init.py
-│ ├── time_manager.py # Gestión del tiempo, clima y estaciones
-│ ├── economy.py # Economía: recursos, precios, comercio
-│ ├── storage.py # Guardado y carga del estado del mundo
-│ └── simulation.py # Control de ciclos de simulación
-│
-├── entities/ # Entidades dinámicas del mundo
-│ ├── init.py
-│ ├── npc.py # Clase NPC y su IA básica
-│ ├── events.py # Eventos y misiones dinámicas
-│ ├── factions.py # (Opcional) Facciones y relaciones políticas
-│ └── stats.py # Estructuras de estadísticas o atributos
-│
-├── cli/ # Interfaz de línea de comandos
-│ ├── init.py
-│ ├── commands.py # Lógica de los comandos disponibles
-│ ├── interface.py # Menú principal e interacción del usuario
-│ └── utils.py # Funciones auxiliares (colores, logs, etc.)
-│
-├── core/ # Núcleo común y utilidades globales
-│ ├── init.py
-│ ├── config.py # Configuración general (ticks, rutas, límites)
-│ ├── logger.py # Sistema de registro de acciones y eventos
-│ └── helpers.py # Funciones de apoyo generales
-│
-├── tests/ # Pruebas unitarias y de integración
-│ ├── init.py
-│ ├── test_time_manager.py
-│ ├── test_economy.py
-│ ├── test_npc.py
-│ └── test_cli.py
-│
-└── logs/ # Archivos de registro automático
-├── session_2025-11-10.log
-└── errors.log
-└── README.md
 
 
 ### 🧩 Explicación breve
