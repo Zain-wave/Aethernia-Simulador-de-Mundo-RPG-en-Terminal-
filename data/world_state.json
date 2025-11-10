@@ -1,0 +1,16 @@
+{
+    "day": 1,
+    "season": "Primavera",
+    "weather": "Soleado",
+    "economy": {
+        "gold": 1000,
+        "grain_price": 10,
+        "iron_price": 25,
+        "population": 5
+    },
+    "population": {
+        "total_npcs": 0
+    },
+    "npcs": [],
+    "events": []
+}
